@@ -85,7 +85,7 @@ main(void)
         //
         for(ulLoop = 0; ulLoop < 200000; ulLoop++)
         {
-        	x = x*x*x*x;
+        	x = x*x*x;
         }
         if (y==0) y = 0x49249249;
     }
