@@ -70,9 +70,9 @@ main(void)
         //
         // Delay for a bit.
         //
-        for(ulLoop = 0; ulLoop < 200000; ulLoop++)
+        for(ulLoop = 0; ulLoop < 2000000; ulLoop++)
         {
-        	x = x*x*x*x;
+        	x = x*x*x;
         }
 
         //
@@ -83,7 +83,7 @@ main(void)
         //
         // Delay for a bit.
         //
-        for(ulLoop = 0; ulLoop < 200000; ulLoop++)
+        for(ulLoop = 0; ulLoop < 2000000; ulLoop++)
         {
         	x = x*x*x;
         }
